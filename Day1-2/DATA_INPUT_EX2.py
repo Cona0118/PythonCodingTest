@@ -4,4 +4,5 @@
 
 s = input().split('-')
 print(''.join(s))
- 
+
+print("".join(input("주민번호를 입력해주세요 : ").split('-')))
