@@ -15,7 +15,8 @@
 
 ## 값 변환/연산자 실습
 [소스 코드 : DATA_CONVERT_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day1-2/DATA_CONVERT_EX3.py)
-
+ 
 ## 조건문/반복문 실습
 [소스 코드 : IF_REPEAT_EX4.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day1-2/IF_REPEAT_EX4.py)
+
 [소스 코드 : IF_REPEAT_EX5.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day1-2/IF_REPEAT_EX5.py)
