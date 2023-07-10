@@ -4,3 +4,4 @@ print('-'.join(date)) # 문자 - 로 연결 출력
 date.reverse() # 구분된 문자열 역 뒤집기(정렬 x)
 print(':'.join(date)) # 문자 : 로 연결 출력
 print(date[0], date[1]) # 구분된 문자의 내부 인덱스 번호로 출력
+ 
