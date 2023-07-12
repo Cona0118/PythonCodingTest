@@ -1,7 +1,7 @@
 # PythonCodingTest
 #### 2023 Summer Vacation PythonCodingTest 
 
-## Day 1-2 주요 실습 사항
+# Day 1-2 주요 실습 사항
 파이썬 환경 설정 완료
 
 ## 실행 및 Git 연동
@@ -37,7 +37,7 @@
 
 [소스 코드 : FUNCTION_EX12.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day1-2/FUNCTION_EX12.py)
 
-## Day 3 주요 실습 사항
+# Day 3 주요 실습 사항
 
 ## 시간복잡도
 [소스 코드 : TIME_TEST.py 실습 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day3/TIME_TEST.py)
