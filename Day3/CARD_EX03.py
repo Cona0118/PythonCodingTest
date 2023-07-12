@@ -2,3 +2,14 @@
 # 참고 : 행을 순차 선택, 첫 뽑기는 반드시 가장 낮은 카드를 한번 이상 뽑아야한다. 
 # 범위 : 행열 : (1 <= N, N <= 100),  카드  숫자 : 자연수 10000 이하 
 # 요구사항 : 시간 제한 1초, 메모리 제한 128MB
+
+from random import sample
+N,M = map(int, input('행,열 입력 :').split())
+Min_list = []
+for i in range(N):
+    a = sample(range(1, 101), M)
+    print(a)
+    Min_list.append(min(a))
+    print(Min_list)
+print(max(Min_list))
+    
