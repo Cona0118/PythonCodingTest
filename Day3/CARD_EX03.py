@@ -8,8 +8,8 @@ N,M = map(int, input('행,열 입력 :').split())
 Min_list = []
 for i in range(N):
     a = sample(range(1, 101), M)
-    print(a)
+    # print(a)
     Min_list.append(min(a))
-    print(Min_list)
+    # print(Min_list)
 print(max(Min_list))
     
