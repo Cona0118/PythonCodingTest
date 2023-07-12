@@ -46,3 +46,5 @@
 [소스 코드 : 1_PLEASE_EX01.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day3/1_PLEASE_EX01.py)
 
 [소스 코드 : CURRENCY_EX02.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day3/CURRENCY_EX02.py)
+
+[소스 코드 : CARD_EX03.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day3/CARD_EX03.py.py)
