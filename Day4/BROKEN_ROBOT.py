@@ -31,9 +31,65 @@ robot_list = []
 for i in range(N):
     print(i+1,end="")
     robot_list.append(input("번 로봇의 위치와 방향(NSEW) 입력: ").split())
+    if robot_list[i][2].upper() == "N" :
+        robot_list[i][2] = 0
+    elif robot_list[i][2].upper() == "E" :
+        robot_list[i][2] = 1
+    elif robot_list[i][2].upper() == "S" :
+        robot_list[i][2] = 2
+    elif robot_list[i][2].upper() == "W" :
+        robot_list[i][2] = 3
+
+for i in range(len(robot_list)):
+    robot_list[i] = list(map(int, robot_list[i]))
 
 command = []
 for i in range(M):
+    dx , dy = 0 , 0
     command.append(input("로봇 번호, 명령, 반복횟수 입력: ").split())
-    print(command)
     
+    if command[i][1].upper() == "R":
+        robot_list[int(command[i][0])-1][2] = (robot_list[int(command[i][0])-1][2] + 1 * int(command[i][2])) % 4 
+        
+    elif command[i][1].upper() == "L":
+        robot_list[int(command[i][0])-1][2] = (robot_list[int(command[i][0])-1][2] + 3 * int(command[i][2])) % 4 
+        
+    elif command[i][1].upper() == "F":
+        if robot_list[int(command[i][0])-1][2] == 0: # N
+            dx = robot_list[int(command[i][0])-1][0]
+            dy = robot_list[int(command[i][0])-1][1] + int(command[i][2])
+        if robot_list[int(command[i][0])-1][2] == 1: # E
+            dx = robot_list[int(command[i][0])-1][0] + int(command[i][2])
+            dy = robot_list[int(command[i][0])-1][1]
+        if robot_list[int(command[i][0])-1][2] == 2: # S
+            dx = robot_list[int(command[i][0])-1][0]
+            dy = robot_list[int(command[i][0])-1][1] - int(command[i][2])
+        if robot_list[int(command[i][0])-1][2] == 3: # W 
+            dx = robot_list[int(command[i][0])-1][0] - int(command[i][2])
+            dy = robot_list[int(command[i][0])-1][1]
+        
+        if dx < 1 or dx > A:
+            print(command[i][0],"번 로봇이 벽에 부딪혔다!")
+        elif dy < 1 or dy > B:
+            print(command[i][0],"번 로봇이 벽에 부딪혔다!")
+        elif int(command[i][2]) != 0:
+            for sublist in robot_list:
+                if sublist[0] == dx and sublist[1] == dy:
+                    print(command[i][0],"번 로봇이 다른 로봇과 부딪혔다!")
+                    break
+        else:
+            robot_list[int(command[i][0])-1][0] = dx
+            robot_list[int(command[i][0])-1][1] = dy 
+            print(command[i][0],"번 로봇 이동 완료")
+
+for i in range(N):
+    if robot_list[i][2] == 0 :
+        robot_list[i][2] = "N"
+    elif robot_list[i][2] == 1 :
+        robot_list[i][2] = "E"
+    elif robot_list[i][2] == 2 :
+        robot_list[i][2] = "S"
+    elif robot_list[i][2] == 3 :
+        robot_list[i][2] = "W"
+            
+print(robot_list)
