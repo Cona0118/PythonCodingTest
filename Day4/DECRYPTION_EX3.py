@@ -7,13 +7,24 @@
 password = list(input("암호입력: ").lower())
 for i in range(len(password)):
     if password[i] in ["a", "e", "i", "o", "u"] :
-        if password[i+1] == "g":
-            if password[i+2] == password[i]:
-                password[i+1] = "A"
-                password[i+2] = "A"
+        password[i+1] = "A"
+        password[i+2] = "A"
 
 while 'A' in password:    
     password.remove("A")
 
 print("".join(password))
+
+print("--------------------------------")
+
+data = input("암호 입력: ")
+value = ["a", "e", "i", "o", "u"]
+number = 0
+
+while number<len(data):
+    print(data[number], end="")
+    if data[number] in value:
+        number += 2
+    number += 1
+print("")
     
