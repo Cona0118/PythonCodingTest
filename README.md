@@ -48,3 +48,12 @@
 [소스 코드 : CURRENCY_EX02.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day3/CURRENCY_EX02.py)
 
 [소스 코드 : CARD_EX03.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day3/CARD_EX03.py)
+
+# Day 4 주요 실습 사항
+## 구현/시뮬레이션
+[소스 코드 : TIME_FILTER_EX1.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day4/TIME_FILTER_EX1.py)
+
+[소스 코드 : ATOZ_EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day4/ATOZ_EX2.py)
+
+[소스 코드 : DECRYPTION_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day4/DECRYPTION_EX3.py)
+
