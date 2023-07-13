@@ -48,9 +48,11 @@ for i in range(M):
     
     if command[i][1].upper() == "R":
         robot_list[int(command[i][0])-1][2] = (robot_list[int(command[i][0])-1][2] + 1 * int(command[i][2])) % 4 
+        print(command[i][0],"번 로봇 회전 완료")
         
     elif command[i][1].upper() == "L":
         robot_list[int(command[i][0])-1][2] = (robot_list[int(command[i][0])-1][2] + 3 * int(command[i][2])) % 4 
+        print(command[i][0],"번 로봇 회전 완료")
         
     elif command[i][1].upper() == "F":
         if robot_list[int(command[i][0])-1][2] == 0: # N
