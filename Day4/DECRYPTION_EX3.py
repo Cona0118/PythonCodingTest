@@ -2,3 +2,18 @@
 #        그 모음을 하나 더 쓰는 형태로 문서를 암호화한다. 암호문을 실제 원본 문장으로 바꾸는 프로그램을 작성하시오.
 # 참고 : 내용은 알파벳 소문자와 공백으로 이루어진 문장 한개
 # 참고 : 길이는 최대 100
+
+# password = list("hegellogo nigicege dagay")
+password = list(input("암호입력: ").lower())
+for i in range(len(password)):
+    if password[i] in ["a", "e", "i", "o", "u"] :
+        if password[i+1] == "g":
+            if password[i+2] == password[i]:
+                password[i+1] = "A"
+                password[i+2] = "A"
+
+while 'A' in password:    
+    password.remove("A")
+
+print("".join(password))
+    
