@@ -22,10 +22,8 @@
 # 그 외의 경우에는 잘못된 경우 2가지 명령을 중 하나를 출력(먼저 발생)하면 된다.
 #     벽에 부딧침! 또는 로봇 충돌! 출력
 
-# A , B = map(int, input("섬의 가로 세로 입력: ").split()) # 5 4
-# N , M = map(int, input("로봇의 수와 지시할 명령의 횟수 입력: ").split()) # 2 2
-A, B = 5, 4
-N, M = 2, 2
+A , B = map(int, input("섬의 가로 세로 입력: ").split()) # 5 4
+N , M = map(int, input("로봇의 수와 지시할 명령의 횟수 입력: ").split()) # 2 2
 
 robot_list = []
 for i in range(N):
