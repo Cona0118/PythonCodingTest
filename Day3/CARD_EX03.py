@@ -3,13 +3,24 @@
 # 범위 : 행열 : (1 <= N, N <= 100),  카드  숫자 : 자연수 10000 이하 
 # 요구사항 : 시간 제한 1초, 메모리 제한 128MB
 
-from random import sample
+import random
 N,M = map(int, input('행,열 입력 :').split())
 Min_list = []
 for i in range(N):
-    a = sample(range(1, 101), M)
+    # a = sample(range(1, 101), M)
+    a = []
+    for l in range(M):
+        a.append(random.randint(1,100))
     # print(a)
     Min_list.append(min(a))
     # print(Min_list)
 print(max(Min_list))
+
+n, m = map(int, input().split())
+result = 0
+for i in range(n):
+    data = list(map(int,input().split()))
+    min_value = min(data)
+    result = max(result, min_value)
+print(result)
     
