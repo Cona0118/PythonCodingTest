@@ -58,3 +58,13 @@
 [소스 코드 : DECRYPTION_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day4/DECRYPTION_EX3.py)
 
 [소스 코드 : BROKEN_ROBOT.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day4/BROKEN_ROBOT.py)
+
+# Day 5 주요 실습 사항
+## 그리디 실전문제
+[소스 코드 : EXAM_01.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day5/EXAM_01.py)
+
+## 구현 실습문제
+[소스 코드 : EXAM_02.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day5/EXAM_02.py)
+
+## 시뮬레이션 실전문제
+[소스 코드 : EXAM_03.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day5/EXAM_03.py)
