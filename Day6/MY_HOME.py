@@ -25,34 +25,45 @@ process = psutil.Process(os.getpid()) # 공간 복잡도를 위한 프로세스 
 start_time = time.time() # 시간 측정 시작, 입력 직접 받으면 대기시간 만큼 시간 증가
 
 for i in range(len(house)):
+    house[i].insert(0,"0")
     house[i].append("0")
-house.append(list("0"*(n+1)))
+house.insert(0,list("0"*(n+2)))
+house.append(list("0"*(n+2)))
 
-visit = [[False] * (n+1) for i in range(n+1)]
+visit = [[False] * (n+2) for i in range(n+2)]
 counter = 0
-h_counter = 0
 
+h_counter = 0
 def house_check(a,b):
     global h_counter
     if not visit[a][b]:
         visit[a][b] = True
-        if house[a][b] == "1":
-            
-            if not visit[a+1][b] and house[a+1][b] == "1":
-                    house_check(a+1,b)
-            if not visit[a][b+1] and house[a][b+1] == "1":
-                    house_check(a,b+1)
+        h_counter += 1
+        if not visit[a+1][b] and house[a+1][b] == "1":
+            house_check(a+1,b)            
+        if not visit[a][b+1] and house[a][b+1] == "1":
+            house_check(a,b+1)           
+        if not visit[a-1][b] and house[a-1][b] == "1":
+            house_check(a-1,b)
+        if not visit[a][b-1] and house[a][b-1] == "1":
+            house_check(a,b-1)
                     
 house_count = []
-for i in range(n):
-    for j in range(n):
+for i in range(1,n+1):
+    for j in range(1,n+1):
         if not visit[i][j] and house[i][j] == "1":
             counter += 1
             house_check(i,j)
-            house_count.append[h_counter]
+            house_count.append(h_counter)
         
 print("단지의 수 :",counter)
-print(house_count)
+
+house_count.sort(reverse = True)
+for i in range(len(house_count)-1):
+    house_count[i] = house_count[i] - house_count[i+1]
+
+print("단지별 집 수 :",house_count)
+
 
 end_time = time.time() # 측정 종료
 print("time:", format(end_time - start_time, '.10f')) # 정확도 소수 아래 10자리로 수행 시간 출력
