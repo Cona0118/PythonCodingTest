@@ -12,5 +12,5 @@ def selection_sort(array):
     return array
 
 array = [5, 2, 4, 6, 1, 3]
-selection_sort(array)
+selection_sort(array) 
 print(array)
