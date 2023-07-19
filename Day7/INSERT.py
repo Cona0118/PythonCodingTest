@@ -11,6 +11,6 @@ for i in range(1, len(array)):  # 전체 루프
         else:  # 자기보다 작은 데이터를 만나면 그 위치에서 멈춤
             break
 
-print(array)
+print(array) 
 
 
