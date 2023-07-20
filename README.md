@@ -70,12 +70,12 @@
 [소스 코드 : EXAM_03.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day5/EXAM_03.py)
 
 # Day 6 주요 실습 사항
-## DFS 실습문제
+## DFS 
 [소스 코드 : DFS_EX1.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/DFS_EX1.py)
 
 [소스 코드 : ICE_COUNT.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/ICE_COUNT.py)
 
-## BFS 실습문제 
+## BFS 
 [소스 코드 : BFS_EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/BFS_EX2.py)
 
 [소스 코드 : BFS_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/BFS_EX3.py)
@@ -83,3 +83,16 @@
 [소스 코드 : RUNRUNRUN.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/RUNRUNRUN.py)
 
 [소스 코드 : MY_HOME.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/MY_HOME.py)
+
+# Day 7 주요 실습 사항
+## 정렬 
+[소스 코드 : COMPARISON.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day7/COMPARISON.py)
+
+[소스 코드 : SORT_EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day7/SORT_EX2.py)
+
+[소스 코드 : SORT_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day7/SORT_EX3.py)
+
+## 이진탐색
+[소스 코드 : SORT_EX4.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day7/SORT_EX4.py)
+
+[소스 코드 : SORT_EX5.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day7/SORT_EX5.py)
