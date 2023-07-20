@@ -96,3 +96,11 @@
 [소스 코드 : SORT_EX4.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day7/SORT_EX4.py)
 
 [소스 코드 : SORT_EX5.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day7/SORT_EX5.py)
+
+# Day 8 주요 실습 사항
+## DP
+[소스 코드 : DP_EX1.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day8/DP_EX1.py)
+
+[소스 코드 : DP_EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day8/DP_EX2.py)
+
+[소스 코드 : DP_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day8/DP_EX3.py)
