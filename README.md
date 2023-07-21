@@ -104,3 +104,13 @@
 [소스 코드 : DP_EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day8/DP_EX2.py)
 
 [소스 코드 : DP_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day8/DP_EX3.py)
+
+# Day 10 주요 실습 사항
+## DFS BFS 실습문제
+[소스 코드 : F_EXAM_01.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day5/F_EXAM_01.py)
+
+## 이진탐색 실습문제
+[소스 코드 : F_EXAM_02.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day5/F_EXAM_02.py)
+
+## DP 실습문제
+[소스 코드 : F_EXAM_03.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day5/F_EXAM_03.py)
