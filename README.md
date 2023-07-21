@@ -105,6 +105,15 @@
 
 [소스 코드 : DP_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day8/DP_EX3.py)
 
+# Day 9 주요 실습 사항
+## 소수
+[소스 코드 :PRIME_STRING_EX1.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day9/PRIME_STRING_EX1.py)
+
+[소스 코드 : PRIME_STRING_EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day9/PRIME_STRING_EX2.py)
+
+## 투포인터
+[소스 코드 : TWO_PLUS_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day9/TWO_PLUS_EX3.py)
+
 # Day 10 주요 실습 사항
 ## DFS BFS 실습문제
 [소스 코드 : F_EXAM_01.py 실전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Final_Day10/F_EXAM_01.py)
