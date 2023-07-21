@@ -76,7 +76,7 @@
 [소스 코드 : ICE_COUNT.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/ICE_COUNT.py)
 
 ## BFS 
-[소스 코드 : BFS_EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/BFS_EX2.py)
+[소스 코드 : BFS/EX2.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/BFS_EX2.py)
 
 [소스 코드 : BFS_EX3.py 도전 문제 완료](https://github.com/Cona0118/PythonCodingTest/blob/main/Day6/BFS_EX3.py)
 
